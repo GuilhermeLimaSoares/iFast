@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "iFast"
+    }
+  },
+  "defaultProject": "iFast",
+  "cli": {
+    "analytics": "5ae86827-00d0-4254-b7cf-73df5d179c31"
+  }
 }

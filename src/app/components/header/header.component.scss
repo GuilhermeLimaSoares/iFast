@@ -1,0 +1,13 @@
+.header {
+    border: 1px solid green;
+    .navigation {
+        .list {
+            list-style: none;
+            justify-content: space-evenly;
+            display: flex;
+            &__item {
+                display: inline;
+            }
+        }
+    }
+}
