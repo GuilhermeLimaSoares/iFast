@@ -1,13 +1,14 @@
-.caroussel{
-    // width: 100px;
-    // height: 100px;
-    // background-image: url("src/assets/sol.jpg");
+.caroussel {
+    margin: 0px 155px 0px 155px;
 
-    &-container{
+    &-container {
         width: 100%;
-        height: 95vh;
-        background-image: url("src/assets/sol.jpg");
-        // background-attachment: fixed;
+        height: 50vh;
         background-size: cover;
+        background-repeat: round;
+        .caroussel__btn {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }

@@ -1,0 +1,20 @@
+.btn {
+    border-style: solid;
+    border-width: 0px 5px 5px 0px;
+    width: 30px;
+    padding: 0px 0px 30px;
+    border-radius: 0px;
+    color: grey;
+    opacity: 0.4;
+    background-color: transparent;
+    margin: 145px 20px;
+    outline: none;
+
+    &--left {
+        transform: rotate(135deg);
+    }
+
+    &--right {
+        transform: rotate(315deg);
+    }
+}

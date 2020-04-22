@@ -1,5 +1,8 @@
 <div class="caroussel">
-    <!-- <div class="caroussel-container" [ngStyle]="{ 'background-image': 'url(' + currentImage+ ')'}"></div> -->
-    <div class="caroussel-container"></div>
-    <!-- <div class="caroussel-container" [ngStyle]="{ 'background-image': 'green'}"></div> -->
+    <div class="caroussel-container" [ngStyle]="{ 'background-image': 'url(' + currentImage+ ')'}">
+        <div class="caroussel__btn">
+            <app-arrow-button direction ="left"></app-arrow-button>
+            <app-arrow-button direction="right"></app-arrow-button>
+        </div>
+    </div>
 </div>

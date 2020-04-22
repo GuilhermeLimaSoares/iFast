@@ -11,6 +11,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SectionComponent } from './components/section/section.component';
 import { CarousselComponent } from './components/caroussel/caroussel.component';
+import { ArrowButtonComponent } from './components/arrow-button/arrow-button.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarousselComponent } from './components/caroussel/caroussel.component';
     GalleryComponent,
     FooterComponent,
     SectionComponent,
-    CarousselComponent
+    CarousselComponent,
+    ArrowButtonComponent
   ],
   imports: [
     BrowserModule,

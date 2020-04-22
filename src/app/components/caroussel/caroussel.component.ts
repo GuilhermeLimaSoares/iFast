@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class CarousselComponent implements OnInit {
   currentIndex = 0;
   currentImage: string;
-  pathImage = "src/assets/";
-  imageArray = [`${this.pathImage}gamer.jpg`, `${this.pathImage}sol.jpg`, `${this.pathImage}wolf.jpg`];
+  imageArray = ['wolf.jpg', 'gamer.jpg', 'sol.jpg'];
+
   constructor() {
 
   }
