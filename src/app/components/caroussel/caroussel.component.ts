@@ -24,7 +24,6 @@ export class CarousselComponent implements OnInit {
     setInterval(() => {
       this.currentIndex = this.currentIndex < this.imageArray.length - 1 ? this.currentIndex + 1 : this.currentIndex = 0;
       this.currentImage = this.imageArray[this.currentIndex];
-      console.log(this.currentImage);
     }, 5000);
   }
 

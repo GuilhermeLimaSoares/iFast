@@ -9,7 +9,6 @@ import { AboutComponent } from './pages/about/about.component';
 import { ChampionshipComponent } from './pages/championship/championship.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { SectionComponent } from './components/section/section.component';
 import { CarousselComponent } from './components/caroussel/caroussel.component';
 import { ArrowButtonComponent } from './components/arrow-button/arrow-button.component';
 
@@ -22,13 +21,12 @@ import { ArrowButtonComponent } from './components/arrow-button/arrow-button.com
     ChampionshipComponent,
     GalleryComponent,
     FooterComponent,
-    SectionComponent,
     CarousselComponent,
     ArrowButtonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
