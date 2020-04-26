@@ -4,6 +4,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ChampionshipComponent } from './pages/championship/championship.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { HomeComponent } from './pages/home/home.component';
+import { UserComponent } from './pages/user/user.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'championship', component: ChampionshipComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'user', component: UserComponent}
 
 ];
 
