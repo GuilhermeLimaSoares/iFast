@@ -12,10 +12,10 @@ const routes: Routes = [
 
   // Menu Header
   { path: 'home', component: HomeComponent },
-  { path: 'championship', component: ChampionshipComponent },
-  { path: 'gallery', component: GalleryComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'user', component: UserComponent}
+  { path: 'campeonatos', component: ChampionshipComponent },
+  { path: 'galeria', component: GalleryComponent },
+  { path: 'sobre', component: AboutComponent },
+  { path: 'login', component: UserComponent}
 
 ];
 
