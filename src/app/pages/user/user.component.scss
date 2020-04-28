@@ -1,0 +1,30 @@
+.body {
+    font-size: xx-large;
+    text-align: center;
+
+    .entre {
+        font-weight: bold;
+    }
+    .conta {
+        color: rgb(143, 143, 143);
+    }
+}
+
+.header {
+    text-align: center;
+    .logo {
+        height: 100px;
+    }
+}
+
+.card {
+    max-width: 32rem;
+    margin: auto;
+    .card-body {
+        width: auto;
+        text-align: center;
+    }
+    .submit{
+        text-align: center;
+    }
+}
