@@ -1,48 +1,49 @@
 .header {
-    background-image: linear-gradient(to right, #14a2d8, #1447d8);
-    border: 1px;
-    .navigation {
-        display: flex;
-        .list {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            font-family: "GFS Neohellenic", sans-serif;
-            font-family: "Alegreya SC", serif;
-            &__item {
-                display: inline;
-                margin: 15px 60px 0px 60px;
-                .item {
-                    text-decoration: none;
-                    color: #fff;
-                }
-
-                .sign-in {
-                    padding: 5px 20px 5px 20px;
-                    color: #1447d8;
-                    background-color: #fff;
-                    clip-path: polygon(
-                        0% 15%,
-                        15% 15%,
-                        15% 0%,
-                        85% 0%,
-                        85% 15%,
-                        100% 15%,
-                        100% 85%,
-                        85% 85%,
-                        85% 100%,
-                        15% 100%,
-                        15% 85%,
-                        0% 85%
-                    );
-                }
-            }
-        }
-
-        .logo {
-            width: 100px;
-            margin: 0px 0px 5px 30px;
-            cursor: pointer;
-        }
+    margin: auto;
+    font-size: 20px;
+    background-color: black;
+    .logo {
+        margin-top: -8px;
+        height: 85px;
     }
+    .menu-header {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        margin: 15px;
+        font-family: "GFS Neohellenic", sans-serif;
+        font-family: "Alegreya SC", serif;
+    }
+    .src {
+        margin-right: 5px;
+    }
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    padding: 5px;
+    font-size: 25px;
+    text-align: end;
+    text-decoration: none;
+    border-radius: 20%;
+    width: 33px;
+    height: 33px;
+    background: #3b5998;
+    color: white;
+}
+
+.fa-instagram {
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 20%;
+    width: 33px;
+    height: 33px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
 }

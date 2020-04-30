@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CarousselComponent } from './components/caroussel/caroussel.component';
 import { ArrowButtonComponent } from './components/arrow-button/arrow-button.component';
 import { UserComponent } from './pages/user/user.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { UserComponent } from './pages/user/user.component';
     FooterComponent,
     CarousselComponent,
     ArrowButtonComponent,
-    UserComponent
+    UserComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,16 +7,22 @@
 <form>
     <div class="card">
         <div class="card-header">
-            <a class="entre">Entre </a><span class="conta">na sua conta</span>
+            <a class="entre">Crie </a><span class="conta"> sua conta</span>
         </div>
         <div class="card-body">
+            <!-- Apelido -->
+            <div class="form-group col-sm-12">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Escolha um apelido" aria-label="Username">
+                </div>
+            </div>
             <!-- E-mail -->
             <div class="form-group col-sm-12">
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fa fa-envelope col-sm-1" aria-hidden="true"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="E-mail" aria-label="Username">
+                    <input type="text" class="form-control" placeholder="Digite seu e-mail" aria-label="Username">
                 </div>
             </div>
             <!-- Senha -->
@@ -25,26 +31,12 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fa fa-key col-sm-1" aria-hidden="true"></i></span>
                     </div>
-                    <input type="text" class="form-control" placeholder="Senha" aria-label="Username">
+                    <input type="text" class="form-control" placeholder="Escolha sua senha" aria-label="Username">
                 </div>
             </div>
             <div class="form-group col-sm-12 submit">
-                <button type="submit" class="btn btn-primary col-sm-12">Entrar</button>
+                <button type="submit" class="btn btn-danger col-sm-3" routerLink="/login">Voltar</button>
+                <button type="submit" class="btn btn-success col-sm-3">Criar</button>
             </div>
         </div>
     </div>
-
-    <br>
-
-    <div class="card bg-light mb-3">
-        <div class="card-body">
-            <div class="col-sm-12">
-                <span>Você ainda não tem conta?</span>
-            </div>
-            <br>
-            <div class="form-group col-sm-12 submit">
-                <button type="submit" class="btn btn-success col-sm-12" routerLink="/registrar">Criar conta</button>
-            </div>
-        </div>
-    </div>
-</form>
