@@ -1,0 +1,64 @@
+.about {
+    padding: 30px;
+    .container {
+        border: 1px solid black;
+        padding: 50px 70px;
+
+        .topic {
+            margin: 50px 0px;
+        }
+
+        .topic-begin {
+            &__title {
+            }
+
+            &__content {
+                display: flex;
+
+                .text-description {
+                    text-align: justify;
+                    margin: 0px 30px 0px 0px;
+                    font-family: "Hoefler Text", Georgia, serif;
+                    font-size: 19px;
+                }
+
+                .img-logo-1 {
+                    width: 375px;
+                }
+            }
+        }
+
+        .topic-middle {
+            text-align: center;
+            &__description {
+                text-align: center;
+                opacity: 0.7;
+                font-size: 36px;
+                font-family: "Hoefler Text", Georgia, serif;
+                padding: 40px 60px 55px 60px;
+            }
+
+            &__image {
+                width: 800px;
+            }
+        }
+
+        .topic-end {
+            &__description-first {
+                text-align: center;
+                opacity: 0.7;
+                font-size: 36px;
+                font-family: "Hoefler Text", Georgia, serif;
+                padding: 40px 60px 55px 60px;
+            }
+
+            &__description-second {
+                text-align: center;
+                opacity: 0.7;
+                font-size: 36px;
+                font-family: "Hoefler Text", Georgia, serif;
+                padding: 40px 60px 55px 60px;
+            }
+        }
+    }
+}
